@@ -1,0 +1,34 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:50px;
+    border-bottom: 1px solid grey;
+}
+
+.Navbar-Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+}
+.search
+{
+    display: flex;
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+@media (max-width: 600px) {
+    .search{
+        display: none;
+    }
+    .Navbar-Links{
+        
+        width: 40%;
+    }
+}
